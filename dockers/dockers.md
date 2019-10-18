@@ -228,16 +228,3 @@ Debugging help
 
     > -   If you want to login to the container you can use attach.
 
-Docker-in-Docker
-----------------
-
-If you have Docker 0.6, all you have to do is:
-
-docker run -privileged -t -i jpetazzo/dind
-
-This will download my special Docker image (we will see later why it is
-special), and execute it in the new privileged mode. By default, it will
-run a local docker daemon, and drop you into a shell. In that shell,
-let's try a classical "Docker 101" command:
-
-<https://www.docker.com/blog/docker-can-now-run-within-docker/>
