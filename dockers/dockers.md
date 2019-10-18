@@ -1,8 +1,3 @@
-::: {.toctree}
-:::
-
-All About Dockers
-=================
 
 Getting Started With Docker
 ===========================
@@ -47,7 +42,7 @@ Installing Docker on fedora
 -   For more details refer
     <https://docs.docker.com/install/linux/docker-ce/fedora/>
 
-\newpage
+
 Docker Basic Operations
 -----------------------
 
